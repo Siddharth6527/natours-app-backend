@@ -15,14 +15,14 @@
     "class-methods-use-this": "off",
     "prefer-arrow-callback": "off",
     "prefer-destructuring": ["error", { "object": true, "array": false }],
-    "no-unused-vars": ["warn", { "argsIgnorePattern": "req|res|next|val" }],
-    "node/no-unsupported-features/es-syntax": [
-      "off",
-      {
-        "version": ">=8.0.0",
-        "ignores": []
-      }
-    ]
+    "no-unused-vars": ["warn", { "argsIgnorePattern": "req|res|next|val" }]
+    // "node/no-unsupported-features/es-syntax": [
+    //   "off",
+    //   {
+    //     "version": ">=8.0.0",
+    //     "ignores": []
+    //   }
+    // ]
     // "import/no-extraneous-dependencies": ["off", { "devDependencies": true }]
   }
 }
