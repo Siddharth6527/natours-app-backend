@@ -45,6 +45,7 @@ userSchema.pre('save', async function (next) {
   next();
 });
 
+// INSTANCE FUNCTION ~ available on all documents
 userSchema.methods.correctPassword = async function (
   candidatePassword,
   userPassword,
